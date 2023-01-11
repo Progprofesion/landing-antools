@@ -1,0 +1,50 @@
+.trust {
+    margin-top: 200px;
+    height: 259px;
+    border-radius: 25px;
+    overflow: hidden; 
+    &__wrapp {
+        height: 253px;
+        background: rgba(44, 53, 61, 0.2);
+        backdrop-filter: blur(25px);
+        border-radius: 25px;
+        ::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            inset: 0;
+            padding: 3px;
+            border-radius: 25px;
+            background: linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -200.6%,rgba(255, 255, 255, 0) 70.79%);
+            -webkit-mask: 
+               linear-gradient(#fff 0 0) content-box, 
+               linear-gradient(#fff 0 0);
+                    mask: 
+               linear-gradient(#fff 0 0) content-box, 
+               linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+                    mask-composite: exclude;
+        }
+    }
+    &__title {
+        padding-top: 55px;
+        text-align: center;
+    }
+    &__companyWrapp {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        margin-left: 82px;
+        width: 1060px;
+        height: 50px;
+    }
+    &__ellipse {
+        position: absolute;
+        width: 159px;
+        height: 159px;
+        right: 1160px;
+        bottom: 190px;
+        background: rgba(255, 72, 66, 0.4);
+        filter: blur(50px);
+    }
+}

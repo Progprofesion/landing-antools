@@ -1,0 +1,24 @@
+.inputBlock {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 65px;
+    margin-top: 60px;
+    background: #283036;
+    border-radius: 15px;
+    &__input {
+        width: 190px;
+        height: 25px;
+        margin-left: 14px;
+        margin-right: 112px;
+        background: #283036;
+        border: none;
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.55);
+    }
+    &__img {
+        margin-left: 18px;
+    }
+}

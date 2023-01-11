@@ -1,0 +1,84 @@
+.header {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.55);
+    &__wrapp {
+        display: flex;
+    }
+    &__wrappIcon {
+        margin-top: 31px;
+        margin-right: 257px;
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+        height: 38px;
+        font-size: 22px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    &__wrappLink {
+        position: relative;
+        margin-top: 38px;
+        margin-right: 193px;
+        display: flex;
+        justify-content: space-between;
+        width: 430px;
+        height: 24px;
+    }
+    &__checkImg {
+        position: absolute;
+        top: 11px;
+        right: 233px;
+    }
+    &__wrappLogin {
+        margin-top: 26px;
+        display: flex;
+        width: 205px;
+        height: 48px;
+    }
+    &__login{
+        margin-top: 12px;
+        margin-right: 41px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.78);
+        opacity: 0.78;
+    }
+    &__title {
+        position: relative;
+        margin-top: 105px;
+        width: 600px;
+        span {
+            color: #FF6E30;
+        }
+    }
+    &__round {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        right: 45px;
+        bottom: 17px;
+        background-color: #FF6E30;
+        border-radius: 100%;
+    }
+    &__subtitle {
+        margin-top: 30px;
+        width: 488px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+    &__img {
+        position: absolute;
+        right: 0;
+        top: 132px;
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        width: 190px;
+        height: 58px;
+        margin-top: 110px;
+        padding: 12px;
+    }    
+}

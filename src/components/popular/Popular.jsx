@@ -25,12 +25,12 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={figmaIcon} alt="figma" className="popular__figmaIcon" />
                         <div className="popular__wrappTitle">
-                            <h4 className="popular__itemTitle">FIGMA</h4>
-                            <div className="popular__itemSubtitle">Free</div>
+                            <h3 className="popular__itemTitle">FIGMA</h3>
+                            <h4 className="popular__itemSubtitle">Free</h4>
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like"><img src={likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={addIcon} alt="add" /></div>
                         <div className="popular__visit fz-16">Visit</div>
@@ -45,7 +45,7 @@ const Popular = () => {
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like activeLike"><img src={redLikeIcon ? redLikeIcon : likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={activeAddIcon} alt="add" /></div>
                         <div className="popular__visit fz-16"><Button title='Visit' style={{ width: '106px', height: '42px', lineHeight: '0px' }} /></div>
@@ -55,12 +55,12 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={vsCodeIcon} alt="Visual Studio Code" className="popular__Sketch" />
                         <div className="popular__wrappTitle ">
-                            <h4 className="popular__itemTitle">Visual Studio Code</h4>
-                            <div className="popular__itemSubtitle">Free</div>
+                            <h3 className="popular__itemTitle">Visual Studio Code</h3>
+                            <h4 className="popular__itemSubtitle">Free</h4>
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like"><img src={likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={addIcon} alt="add" /></div>
                         <div className="popular__visit fz-16">Visit</div>
@@ -70,12 +70,12 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={notionIcon} alt="Notion" className="popular__Sketch" />
                         <div className="popular__wrappTitle ">
-                            <h4 className="popular__itemTitle">Notion</h4>
-                            <div className="popular__itemSubtitle">Free & Paid</div>
+                            <h3 className="popular__itemTitle">Notion</h3>
+                            <h4 className="popular__itemSubtitle">Free & Paid</h4>
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like"><img src={likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={addIcon} alt="add" /></div>
                         <div className="popular__visit fz-16">Visit</div>
@@ -85,12 +85,12 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={slackIcon} alt="Slack" className="popular__Sketch" />
                         <div className="popular__wrappTitle ">
-                            <h4 className="popular__itemTitle">Slack</h4>
-                            <div className="popular__itemSubtitle">Free & Paid</div>
+                            <h3 className="popular__itemTitle">Slack</h3>
+                            <h4 className="popular__itemSubtitle">Free & Paid</h4>
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like"><img src={likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={addIcon} alt="add" /></div>
                         <div className="popular__visit fz-16">Visit</div>
@@ -100,12 +100,12 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={invisionIcon} alt="Invision" className="popular__Sketch" />
                         <div className="popular__wrappTitle ">
-                            <h4 className="popular__itemTitle">Invision</h4>
-                            <div className="popular__itemSubtitle">Free & Paid</div>
+                            <h3 className="popular__itemTitle">Invision</h3>
+                            <h4 className="popular__itemSubtitle">Free & Paid</h4>
                         </div>
                     </div>
                     <p className="popular__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div className="popular__itemTools">
+                    <div className="popular__itemPanel">
                         <div className="popular__like"><img src={likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={addIcon} alt="add" /></div>
                         <div className="popular__visit fz-16">Visit</div>

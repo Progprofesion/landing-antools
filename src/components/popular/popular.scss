@@ -23,15 +23,6 @@
     &__wrapp {
         display: flex;
     }
-    &__ellipse  {
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        right: 16px;
-        top: -6px;
-        background: rgba(255, 110, 48, 0.6);
-        filter: blur(25px);
-    }
     &__wrappTitle {
         margin-left: 30px;
     }

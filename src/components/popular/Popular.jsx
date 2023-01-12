@@ -38,7 +38,6 @@ const Popular = () => {
                 </li>
                 <li className="popular__item activePopular">
                     <div className="popular__wrapp">
-                        <div className="popular__ellipse"></div>
                         <img src={sketchIcon} alt="Sketch" className="popular__Sketch" />
                         <div className="popular__wrappTitle">
                             <h4 className="popular__itemTitle activePopularTitle">Sketch</h4>

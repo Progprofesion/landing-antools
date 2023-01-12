@@ -44,11 +44,11 @@ const Newcomer = () => {
                                 <img src={phpstormLogo} alt="phpstorm" />
                             </div>
                             <div className="newcomer__tools-wrappTitle">
-                                <h3 className="newcomer__tools-title activeTitle">PHPStorm</h3>
-                                <h4 className="newcomer__tools-subtitle activeSubtitle">Free</h4>
+                                <h3 className="newcomer__tools-title">PHPStorm</h3>
+                                <h4 className="newcomer__tools-subtitle">Free</h4>
                             </div>
                         </div>
-                        <p className="newcomer__tools-descr activeDescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="newcomer__tools-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div className="newcomer__itemPanel">
                             <div className="newcomer__like"><img src={likeIcon} alt="" /></div>
                             <div className="newcomer__addItem"><img src={addIcon} alt="" /></div>

@@ -106,6 +106,21 @@
     backdrop-filter: blur(25px);
     border-radius: 15px;
     background: url('../../assets/img/rectanglePopular.png') center / cover no-repeat;
+    h3 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFA537;
+    }
+    p {
+        color: rgba(255, 255, 255, 0.78);
+    }
 }
 
 .activeLike {
@@ -117,22 +132,4 @@
         background: url('../../assets/icon/redLikeIcon.svg') center  no-repeat; 
         border: none;
     }
-}
-
-.activeTitle {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.activeSubtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: #FFA537;
-}
-
-.activeDescr {
-    color: rgba(255, 255, 255, 0.78);
 }

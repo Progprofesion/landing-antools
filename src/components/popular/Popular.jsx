@@ -40,13 +40,13 @@ const Popular = () => {
                     <div className="popular__wrapp">
                         <img src={sketchIcon} alt="Sketch" className="popular__Sketch" />
                         <div className="popular__wrappTitle">
-                            <h4 className="popular__itemTitle activePopularTitle">Sketch</h4>
-                            <div className="popular__itemSubtitle activePopularSubtitle">Trial & Paid</div>
+                            <h4 className="popular__itemTitle activeTitle">Sketch</h4>
+                            <div className="popular__itemSubtitle activeSubtitle">Trial & Paid</div>
                         </div>
                     </div>
-                    <p className="popular__descr activePopularDescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p className="popular__descr activeDescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div className="popular__itemTools">
-                        <div className="popular__like activePopularLike"><img src={redLikeIcon ? redLikeIcon : likeIcon} alt="heart" /></div>
+                        <div className="popular__like activeLike"><img src={redLikeIcon ? redLikeIcon : likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={activeAddIcon} alt="add" /></div>
                         <div className="popular__visit fz-16"><Button title='Visit' style={{ width: '106px', height: '42px', lineHeight: '0px' }} /></div>
                     </div>

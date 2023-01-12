@@ -109,7 +109,7 @@
     background: url('../../assets/img/rectanglePopular.png') center / cover no-repeat;
 }
 
-.activePopularLike {
+.activeLike {
     background: #283036;
     box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
     border-radius: 8px;
@@ -120,17 +120,20 @@
     }
 }
 
-.ActiveTitlePopular {
+.activeTitle {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: rgba(255, 255, 255, 0.9);
 }
 
-.activeSubtitlePopular {
+.activeSubtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
     color: #FFA537;
 }
 
-.activePopularDescr {
+.activeDescr {
     color: rgba(255, 255, 255, 0.78);
 }

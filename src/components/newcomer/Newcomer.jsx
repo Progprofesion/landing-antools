@@ -29,7 +29,7 @@ const Newcomer = () => {
                                 <h4 className="newcomer__tsubtitle fz-18orange">Free & Paid</h4>
                             </div>
                         </div>
-                        <p className="newcomer__tools-descr fz-14-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="newcomer__tools-descr fz-14-400 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div className="newcomer__itemPanel">
                             <div className="newcomer__like"><img src={likeIcon} alt="" /></div>
                             <div className="newcomer__addItem"><img src={addIcon} alt="" /></div>
@@ -48,7 +48,7 @@ const Newcomer = () => {
                                 <h4 className="newcomer__tools-subtitle fz-18orange">Free</h4>
                             </div>
                         </div>
-                        <p className="newcomer__tools-descr fz-14-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="newcomer__tools-descr activeNewcomerDescr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <div className="newcomer__itemPanel">
                             <div className="newcomer__like"><img src={likeIcon} alt="" /></div>
                             <div className="newcomer__addItem"><img src={addIcon} alt="" /></div>

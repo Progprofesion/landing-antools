@@ -3,13 +3,20 @@
 Проект сделан на react, с минимальными количеством библиотек по факту только с библиотекой swiper для слайдера. 
 Максимально понятные название классов но без лапши, пишу по БЭМу, стараюсь избегать слишком длинных названий классов, не использую названия типа newTools__wrapp-item-title, также отсутствует слишком большая вложенность блоков. Правильные семантические теги.
 
-Аббревиатуры:
-Пример fz-22-500.
-fz = font-size.
-22 = размер шрифта.
-500 = жирность шрифта.
-Также существуют готовые классы "active" для активации карточек (activeNewcomer, activePopular, activeLike, activeTitle, activeSubtitle
-activeDescr ), в компонентах popular и newcomer, в самом низу файлах pupular.scss и newcomer.scss.
+Аббревиатуры:  
+Пример fz-22-500.  
+fz = font-size.  
+22 = размер шрифта.  
+500 = жирность шрифта.     
+
+Также существуют готовые классы "active" для активации карточек:  
+activeNewcomer,  
+activePopular,  
+activeLike,  
+activeTitle,  
+activeSubtitle,  
+activeDescr  
+в компонентах popular и newcomer, в самом низу файлах pupular.scss и newcomer.scss.
 Также есть переиспользуемые, настраиваемые компоненты Button и InputBlock в папке components.
 
 ### Installing

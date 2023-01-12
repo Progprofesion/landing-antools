@@ -13,7 +13,7 @@ fz = font-size.
 Также существуют готовые классы "active" для активации карточек:  
 activeNewcomer,  
 activePopular,  
-activeLike
+activeLike  
 в компонентах popular и newcomer, в самом низу файлах pupular.scss и newcomer.scss.
 Также есть переиспользуемые, настраиваемые компоненты Button и InputBlock в папке components.
 

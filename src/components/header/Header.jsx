@@ -1,12 +1,12 @@
 import Button from '../button/Button';
 import InputBlock from '../inputBlock/InputBlock';
 
-import iconAntools from '../../assets/icon/iconAntools.svg';
-import headerIllustration from '../../assets/img/headerIllustration.svg';
-import facebook from '../../assets/icon/facebook.svg';
-import instagram from '../../assets/icon/instagram.svg';
-import twitter from '../../assets/icon/twitter.svg';
-import check from '../../assets/icon/check.svg';
+import iconAntools from 'src/assets/icon/iconAntools.svg';
+import headerIllustration from 'src/assets/img/headerIllustration.svg';
+import facebook from 'src/assets/icon/facebook.svg';
+import instagram from 'src/assets/icon/instagram.svg';
+import twitter from 'src/assets/icon/twitter.svg';
+import check from 'src/assets/icon/check.svg';
 
 import './header.scss';
 

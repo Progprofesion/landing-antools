@@ -1,6 +1,6 @@
 import Button from '../button/Button'
 
-import search from '../../assets/icon/search.svg';
+import search from 'src/assets/icon/search.svg';
 
 import './inputBlock.scss';
 

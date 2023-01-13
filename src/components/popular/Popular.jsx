@@ -1,15 +1,15 @@
 import Button from '../button/Button';
 
-import figmaIcon from '../../assets/icon/figmaIcon.svg';
-import sketchIcon from '../../assets/icon/sketchIcon.svg';
-import vsCodeIcon from '../../assets/icon/vsCodeIcon.svg';
-import notionIcon from '../../assets/icon/notionIcon.svg';
-import slackIcon from '../../assets/icon/slackIcon.svg';
-import invisionIcon from '../../assets/icon/invisionIcon.svg';
-import likeIcon from '../../assets/icon/likeIcon.svg';
-import addIcon from '../../assets/icon/addIcon.svg';
-import redLikeIcon from '../../assets/icon/redLikeIcon.svg';
-import activeAddIcon from '../../assets/icon/activeAddIcon.svg';
+import figmaIcon from 'src/assets/icon/figmaIcon.svg';
+import sketchIcon from 'src/assets/icon/sketchIcon.svg';
+import vsCodeIcon from 'src/assets/icon/vsCodeIcon.svg';
+import notionIcon from 'src/assets/icon/notionIcon.svg';
+import slackIcon from 'src/assets/icon/slackIcon.svg';
+import invisionIcon from 'src/assets/icon/invisionIcon.svg';
+import likeIcon from 'src/assets/icon/likeIcon.svg';
+import addIcon from 'src/assets/icon/addIcon.svg';
+import redLikeIcon from 'src/assets/icon/redLikeIcon.svg';
+import activeAddIcon from 'src/assets/icon/activeAddIcon.svg';
 
 import './popular.scss';
 

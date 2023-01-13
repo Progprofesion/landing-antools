@@ -1,7 +1,7 @@
-import logoMicrosoft from '../../assets/icon/logoMicrosoft.svg';
-import logoGoogle from '../../assets/icon/logoGoogle.svg';
-import logoSlack from '../../assets/icon/logoSlack.svg';
-import logoWordpress from '../../assets/icon/logoWordpress.svg';
+import logoMicrosoft from 'src/assets/icon/logoMicrosoft.svg';
+import logoGoogle from 'src/assets/icon/logoGoogle.svg';
+import logoSlack from 'src/assets/icon/logoSlack.svg';
+import logoWordpress from 'src/assets/icon/logoWordpress.svg';
 
 import './trust.scss';
 

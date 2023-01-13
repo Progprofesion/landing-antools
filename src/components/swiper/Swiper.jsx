@@ -11,8 +11,8 @@ import './swiper.scss';
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-import man from '../../assets/img/man.png';
-import comma from '../../assets/img/comma.svg';
+import man from 'src/assets/img/man.png';
+import comma from 'src/assets/img/comma.svg';
 
 export default function App() {
     return (

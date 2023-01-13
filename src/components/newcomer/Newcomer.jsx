@@ -1,11 +1,11 @@
 import Button from '../button/Button';
 
-import zeplinLogo from '../../assets/icon/zeplinLogo.svg';
-import phpstormLogo from '../../assets/icon/phpstormLogo.svg';
-import toolboxLogo from '../../assets/icon/toolboxLogo.svg';
-import procreateLogo from '../../assets/icon/procreateLogo.svg';
-import likeIcon from '../../assets/icon/likeIcon.svg';
-import addIcon from '../../assets/icon/addIcon.svg';
+import zeplinLogo from 'src/assets/icon/zeplinLogo.svg';
+import phpstormLogo from 'src/assets/icon/phpstormLogo.svg';
+import toolboxLogo from 'src/assets/icon/toolboxLogo.svg';
+import procreateLogo from 'src/assets/icon/procreateLogo.svg';
+import likeIcon from 'src/assets/icon/likeIcon.svg';
+import addIcon from 'src/assets/icon/addIcon.svg';
 
 import './newcomer.scss';
 

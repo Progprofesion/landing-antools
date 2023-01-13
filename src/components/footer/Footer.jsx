@@ -1,4 +1,5 @@
-import iconAntools from '../../assets/icon/iconAntools.svg';
+// import iconAntools from 'src/assets/icon/iconAntools.svg';
+import iconAntools from 'src/assets/icon/iconAntools.svg';
 
 import './footer.scss';
 

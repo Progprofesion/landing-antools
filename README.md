@@ -20,3 +20,5 @@ activeLike
 ### Installing
 
 `npm i`  `npm start`
+
+Сайт в сети https://u140298.test-handyhost.ru/

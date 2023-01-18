@@ -15,7 +15,7 @@ const Newcomer = () => {
             <div className="newcomer__wrappHeader">
                 <h2 className="newcomer__wrappHeader-title fz-48-500">Newcomer Tools</h2>
                 <h3 className="newcomer__wrappHeader-subtitle fz-18-500">Wow! see the latest update of the most recommended tools from reliable designers and developers</h3>
-                <Button style={{ width: '198px', height: '58px', fontWeight: '500', fontSize: '18px' }} title='Explore more' />
+                <Button style={{ width: '200px', height: '60px', fontWeight: '500', fontSize: '18px' }} title='Explore more' />
             </div>
             <div className="newcomer__tools">
                 <div className="newcomer__tools-item ">

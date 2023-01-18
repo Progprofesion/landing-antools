@@ -48,7 +48,7 @@ const Popular = () => {
                     <div className="popular__itemPanel">
                         <div className="popular__like activeLike"><img src={redLikeIcon ? redLikeIcon : likeIcon} alt="heart" /></div>
                         <div className="popular__addItem"><img src={activeAddIcon} alt="add" /></div>
-                        <div className="popular__visit fz-16"><Button title='Visit' style={{ width: '106px', height: '42px', lineHeight: '0px' }} /></div>
+                        <div className="popular__visit fz-16"><Button title='Visit' style={{ width: '105px', height: '40px', lineHeight: '0px' }} /></div>
                     </div>
                 </li>
                 <li className="popular__item">

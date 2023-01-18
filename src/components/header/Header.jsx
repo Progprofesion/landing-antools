@@ -7,6 +7,7 @@ import facebook from 'src/assets/icon/facebook.svg';
 import instagram from 'src/assets/icon/instagram.svg';
 import twitter from 'src/assets/icon/twitter.svg';
 import check from 'src/assets/icon/check.svg';
+import search from 'src/assets/icon/search.svg';
 
 import './header.scss';
 
@@ -40,7 +41,10 @@ const Header = () => {
             <p className="header__subtitle">
                 Antool is a web collection of information on paid or free Design and Development tools
             </p>
-            <InputBlock placeholder='find more than 430+ tools...' buttonTitle='Search' />
+            <InputBlock buttonTitle='Search' >
+                <img src={search} alt="" className="inputBlock__img" />
+                <input placeholder='find more than 430+ tools...' className="inputBlock__input" type="text" />
+            </InputBlock >
             <img src={headerIllustration} alt="Illustration" className="header__img" />
             <div className="header__social">
                 <a href="#!"><img src={facebook} alt="facebook" /></a>

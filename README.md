@@ -1,4 +1,4 @@
-https://progprofesion.github.io/test-task-dewCrew/
+https://progprofesion.github.io/landing-antools/
 # React app
 Верстка, лендинг.
 
